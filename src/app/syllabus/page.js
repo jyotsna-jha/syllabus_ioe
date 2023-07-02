@@ -1,8 +1,10 @@
 "use client"
 import React, { useState } from 'react';
-import { SyllabusTable, NavigationButton,Heading} from './page.styled';
+import { SyllabusTable, NavigationButton, Heading } from './page.styled';
 import { FaBook } from 'react-icons/fa';
 
+// fetch json data from public/syllabus.json
+import syllabus_ from '../../../public/BCT_syllabus.json';
 
 const Syllabus = () => {
   const [currentYear, setCurrentYear] = useState(1);
@@ -22,31 +24,19 @@ const Syllabus = () => {
                 <th>Semester 2</th>
               </tr>
             </thead>
+
             <tbody>
-              <tr>
-                <td>Engineering Drawing I [ME 401]</td>
-                <td>Engineering Mathematics II [SH 451]</td>
-              </tr>
-              <tr>
-                <td>Engineering Physics [SH 402]</td>
-                <td>Engineering Chemistry [SH 453]</td>
-              </tr>
-              <tr>
-                <td>Basic Electrical Engineering[EE 401]</td>
-                <td>Workshop Technology [ME 453]</td>
-              </tr>
-              <tr>
-                <td>Digital Logic [EX 502]</td>
-                <td>Object Oriented Programming [CT 501]</td>
-              </tr>
-              <tr>
-                <td>Engineering Mathematics [SH 401]</td>
-                <td>Microprocessor [EX 551]</td>
-              </tr>
-              <tr>
-                <td>Computer Programming [CT 401]</td>
-                <td>Electric Cuircuit And Machines </td>
-              </tr>
+              {/* Loop over 0 to max of length of syllabus[0] and syllabus[1]*/}
+              {Array.from(
+                { length: Math.max(syllabus_[0].length, syllabus_[1].length) },
+                (_, i) => (
+                  <tr key={i}>
+                    {/* if ith index doesnt exist display _ */}
+                    <td>{syllabus_[0][i].Title || '_'} [{syllabus_[0][i].Code || '_'}]</td>
+                    <td>{syllabus_[1][i].Title || '_'} [{syllabus_[1][i].Code || '_'}]</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </SyllabusTable>
         );
@@ -60,35 +50,17 @@ const Syllabus = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Second Year Sem 1</td>
-                <td>Second Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Second Year Sem 1</td>
-                <td>Second Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Second Year Sem 1</td>
-                <td>Second Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Second Year Sem 1</td>
-                <td>Second Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Second Year Sem 1</td>
-                <td>Second Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Second Year Sem 1</td>
-                <td>Second Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Second Year Sem 1</td>
-                <td>Second Year Sem 2</td>
-              </tr>
-              
+              {Array.from(
+                { length: Math.max(syllabus_[2].length, syllabus_[3].length) },
+                (_, i) => (
+                  <tr key={i}>
+                    {/* if ith index doesnt exist display _ */}
+                    <td>{syllabus_[2][i].Title || '_'} [{syllabus_[2][i].Code || '_'}]</td>
+                    <td>{syllabus_[3][i].Title || '_'} [{syllabus_[3][i].Code || '_'}]</td>
+                  </tr>
+                )
+              )}
+
             </tbody>
           </SyllabusTable>
         );
@@ -102,26 +74,16 @@ const Syllabus = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Third Year Sem 1</td>
-                <td>Third Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Third Year Sem 1</td>
-                <td>Third Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Third Year Sem 1</td>
-                <td>Third Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Third Year Sem 1</td>
-                <td>Third Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Third Year Sem 1</td>
-                <td>Third Year Sem 2</td>
-              </tr>
+              {Array.from(
+                { length: Math.max(syllabus_[4].length, syllabus_[5].length) },
+                (_, i) => (
+                  <tr key={i}>
+                    {/* if ith index doesnt exist display _ */}
+                    <td>{syllabus_[4][i].Title || '_'} [{syllabus_[4][i].Code || '_'}]</td>
+                    <td>{syllabus_[5][i].Title || '_'} [{syllabus_[5][i].Code || '_'}]</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </SyllabusTable>
         );
@@ -135,30 +97,29 @@ const Syllabus = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Fourth Year Sem 1</td>
-                <td>Fourth Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Fourth Year Sem 1</td>
-                <td>Fourth Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Fourth Year Sem 1</td>
-                <td>Fourth Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Fourth Year Sem 1</td>
-                <td>Fourth Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Fourth Year Sem 1</td>
-                <td>Fourth Year Sem 2</td>
-              </tr>
-              <tr>
-                <td>Fourth Year Sem 1</td>
-                <td>Fourth Year Sem 2</td>
-              </tr>
+              {Array.from(
+                { length: Math.max(syllabus_[6].length, syllabus_[7].length) },
+                (_, i) => (
+                  <tr key={i}>
+                    {/* if there is no ith index display _ else display title and code*/}
+                    {syllabus_[6][i] ? (
+                      <td>
+                        {syllabus_[6][i].Title} [{syllabus_[6][i].Code}]
+                      </td>
+                    ) : (
+                      <td>_</td>
+                    )}
+                    {syllabus_[7][i] ? (
+                      <td>
+                        {syllabus_[7][i].Title} [{syllabus_[7][i].Code}]
+                      </td>
+                    ) : (
+                      <td>_</td>
+                    )}
+
+                  </tr>
+                )
+              )}
             </tbody>
           </SyllabusTable>
         );
@@ -169,11 +130,11 @@ const Syllabus = () => {
 
   return (
     <>
-      
+
       <Heading>
-      
-  Syllabus
-</Heading>
+
+        Syllabus
+      </Heading>
 
       <hr />
       <div>
@@ -187,7 +148,7 @@ const Syllabus = () => {
           </NavigationButton>
         ))}
       </div>
-      
+
       {renderSyllabusTable(currentYear)}
     </>
   );

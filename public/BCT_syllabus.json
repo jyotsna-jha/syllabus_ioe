@@ -1,0 +1,748 @@
+[
+    [
+        {
+            "Code": "SH401",
+            "Title": "Engineering Mathematics I",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "CT401",
+            "Title": "Computer Programming",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "ME401",
+            "Title": "Engineering Drawing I",
+            "Exam Type": "P",
+            "T-Ass": "",
+            "T-Final": "",
+            "P-Ass": "60",
+            "P-Final": "40",
+            "Total": "100"
+        },
+        {
+            "Code": "SH402",
+            "Title": "Engineering Physics",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "20",
+            "P-Final": "30",
+            "Total": "150"
+        },
+        {
+            "Code": "CE401",
+            "Title": "Applied Mechanics",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "EE401",
+            "Title": "Basic Electrical Engineering",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        }
+    ],
+    [
+        {
+            "Code": "SH451",
+            "Title": "Engineering Mathematics II",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "ME451",
+            "Title": "Engineering Drawing II",
+            "Exam Type": "P",
+            "T-Ass": "",
+            "T-Final": "",
+            "P-Ass": "60",
+            "P-Final": "40",
+            "Total": "100"
+        },
+        {
+            "Code": "EX451",
+            "Title": "Basic Electronics Engineering",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "SH453",
+            "Title": "Engineering Chemistry",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "20",
+            "P-Final": "30",
+            "Total": "150"
+        },
+        {
+            "Code": "ME452",
+            "Title": "Fundamental of Thermodynamics & Heat Transfer",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "ME453",
+            "Title": "Workshop Technology",
+            "Exam Type": "B",
+            "T-Ass": "10",
+            "T-Final": "",
+            "P-Ass": "40",
+            "P-Final": "",
+            "Total": "50"
+        }
+    ],
+    [
+        {
+            "Code": "SH501",
+            "Title": "Engineering Mathematics III",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "CT501",
+            "Title": "Object Oriented Programming",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "EE501",
+            "Title": "Electric Circuit Theory",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT502",
+            "Title": "Theory of Computation",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "EX501",
+            "Title": "Electronic Devices & Circuits",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX502",
+            "Title": "Digital Logic",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "EX503",
+            "Title": "Electromagnetics",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        }
+    ],
+    [
+        {
+            "Code": "EE554",
+            "Title": "Electrical Machine",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "SH553",
+            "Title": "Numerical Methods",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "SH551",
+            "Title": "Applied Mathematics",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "EE552",
+            "Title": "Instrumentation I",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT552",
+            "Title": "Data Structure & Algorithm",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "EX551",
+            "Title": "Microprocessor",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "CT551",
+            "Title": "Discrete Structure",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        }
+    ],
+    [
+        {
+            "Code": "SH601",
+            "Title": "Communication English",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT601",
+            "Title": "Software Engineering",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "SH602",
+            "Title": "Probability & Statistics",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "EX602",
+            "Title": "Instrumentation II",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX603",
+            "Title": "Computer Graphics",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "CT602",
+            "Title": "Data Communication",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT603",
+            "Title": "Computer Orginization & Architecture",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        }
+    ],
+    [
+        {
+            "Code": "CE655",
+            "Title": "Engineering Economics",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "CT655",
+            "Title": "Embedded System",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT653",
+            "Title": "Artificial Intelligence",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT652",
+            "Title": "Database Management System",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "CT651",
+            "Title": "Object Oriented Analysis & Design",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT656",
+            "Title": "Operating System",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT654",
+            "Title": "Minor Project",
+            "Exam Type": "P",
+            "T-Ass": "",
+            "T-Final": "",
+            "P-Ass": "50",
+            "P-Final": "25",
+            "Total": "75"
+        }
+    ],
+    [
+        {
+            "Code": "CT701",
+            "Title": "Project Management",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "CT702",
+            "Title": "Computer Network",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "150"
+        },
+        {
+            "Code": "CT703",
+            "Title": "Distributed System",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT704",
+            "Title": "Digital Signal Analysis & Processing",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT707",
+            "Title": "Project I",
+            "Exam Type": "P",
+            "T-Ass": "",
+            "T-Final": "",
+            "P-Ass": "50",
+            "P-Final": "",
+            "Total": "50"
+        },
+        {
+            "Code": "EX701",
+            "Title": "Energy Environment & Society",
+            "Exam Type": "T",
+            "T-Ass": "10",
+            "T-Final": "40",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "50"
+        },
+        {
+            "Code": "ME708",
+            "Title": "Organization & Management",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "CT72501",
+            "Title": "Advanced Java Programming (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT72502",
+            "Title": "Data Mining (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT72503",
+            "Title": "Embeded System Design Using ARM Technology (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT72504",
+            "Title": "Image Processing & Pattern Recognition (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT72505",
+            "Title": "Web Technology (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EE72504",
+            "Title": "Power Electronics (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX72501",
+            "Title": "Radar Technology (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX72502",
+            "Title": "Satellite Communication (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX72503",
+            "Title": "Biomedical Instrumentation (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX72504",
+            "Title": "Aeronautical Telecommunication (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX72505",
+            "Title": "RF & Microwave Engineering (Elective I)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        }
+    ],
+    [
+        {
+            "Code": "CE752",
+            "Title": "Engineering Professional Practice",
+            "Exam Type": "T",
+            "T-Ass": "10",
+            "T-Final": "40",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "50"
+        },
+        {
+            "Code": "CT751",
+            "Title": "Information Systems",
+            "Exam Type": "T",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "",
+            "P-Final": "",
+            "Total": "100"
+        },
+        {
+            "Code": "CT753",
+            "Title": "Simulation & Modeling",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT754",
+            "Title": "Internet & Intranet",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT755",
+            "Title": "Project II",
+            "Exam Type": "P",
+            "T-Ass": "",
+            "T-Final": "",
+            "P-Ass": "50",
+            "P-Final": "50",
+            "Total": "100"
+        },
+        {
+            "Code": "CT76502",
+            "Title": "Agile Methodologies (Elective II)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT76503",
+            "Title": "Networking with IPv6 (Elective II)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT76507",
+            "Title": "Big Data Technologies (Elective II)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT78501",
+            "Title": "Remote Sensing (Elective III)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT78503",
+            "Title": "Multimedia System (Elective III)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT78504",
+            "Title": "Enterprise Application Design & Development (Elective III)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT78505",
+            "Title": "XML: Foundation Techniques & Applications (Elective III)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "EX78503",
+            "Title": "Telecommunication (Elective III)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT78507",
+            "Title": "Geographic Information System (Elective III)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        },
+        {
+            "Code": "CT78508",
+            "Title": "Speech Processing (Elective III)",
+            "Exam Type": "B",
+            "T-Ass": "20",
+            "T-Final": "80",
+            "P-Ass": "25",
+            "P-Final": "",
+            "Total": "125"
+        }
+    ]
+]
